@@ -30,7 +30,14 @@ background-image: linear-gradient(to right, var(--red), var(--green), var(--yell
 
 .btn-primary{
 width: 40%;
-font-size: 18px;
+font-size: 20px;
+}
+
+.btn-success{
+    width: 40%;
+    font-size: 20px;
+    background-color: var(--green);
+    border-color: var(--green);
 }
 .proximoPer{
     border: 3px solid var(--blue);
@@ -49,11 +56,37 @@ font-size: 18px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.proxPerHeader2{
+    background-color: rgb(220, 220, 220);
+    text-align: left;
+    color: var(--green);
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 1rem;
+    margin-bottom: 10px;
+}
+
 .proxPerBody{
     color: #fff;
     background-color: rgb(165, 163, 163);
     font-size: 20px;
     border-radius: 10px;
+}
+
+.proxPerBody2{
+    color: #111;
+    background-color: rgb(220, 220, 220);
+    font-size: 16px;
+    border-radius: 10px 0 0 0;
+}
+.proxPerBody2 .icon{
+    font-size: 5rem;
+}
+
+.presentacion2 {
+    background-color: rgb(211 209 211);
 }
 
 @media (min-width: 1200px){
@@ -62,6 +95,10 @@ font-size: 18px;
         letter-spacing: 2px;
     }
     .presentacion p{
+        font-size: 20px;
+    }
+
+    .presentacion2 p{
         font-size: 20px;
     }
 
