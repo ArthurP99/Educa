@@ -11,6 +11,7 @@ body{
     line-height: normal;
     font-size: 18px;
 }
+a{text-decoration: none;}
 
 .border-bottom-colors {
     position: relative; /* Asegurar que el seudoelemento esté posicionado correctamente */
@@ -30,7 +31,14 @@ background-image: linear-gradient(to right, var(--red), var(--green), var(--yell
 
 .btn-primary{
 width: 40%;
-font-size: 18px;
+font-size: 20px;
+}
+
+.btn-success{
+    width: 40%;
+    font-size: 20px;
+    background-color: var(--green);
+    border-color: var(--green);
 }
 .proximoPer{
     border: 3px solid var(--blue);
@@ -49,11 +57,111 @@ font-size: 18px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.proxPerHeader2{
+    background-color: rgb(220, 220, 220);
+    text-align: left;
+    color: var(--green);
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 1rem;
+    margin-bottom: 10px;
+}
+
 .proxPerBody{
     color: #fff;
     background-color: rgb(165, 163, 163);
     font-size: 20px;
     border-radius: 10px;
+}
+
+.proxPerBody2{
+    color: #111;
+    background-color: rgb(220, 220, 220);
+    font-size: 16px;
+    border-radius: 10px 0 0 0;
+}
+.proxPerBody2 .icon{
+    font-size: 5rem;
+}
+
+.presentacion2 {
+    background-color: rgb(211 209 211);
+}
+
+.tutoriales{
+    border-top: 5px solid rgb(211 209 211);
+    border-bottom: 5px solid rgb(211 209 211);
+}
+.tutoriales .sep1{
+    border-right: 5px solid rgb(211 209 211);
+}
+
+.tutoriales .icon{
+    font-size: 4rem;
+}
+
+footer {
+    background: none repeat scroll 0 0 #141f26;
+    color: #ffffff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 18px 0 10px;
+    position: relative;
+  }
+  
+  footer h3 {
+    color: #fff;
+    border-bottom: solid #ffb500 1px;
+    padding-bottom: 4px;
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .social-top a {
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background-color .2s linear, color .2s linear;
+  }
+  footer a {
+    color: #ffffff;
+  }
+  .social-top a.fa-twitter:hover {
+    background-color: #00acee;
+    color: #eeeeee !important;
+  }
+  .social-top a.fa-facebook:hover {
+    background-color: #3b5998;
+    color: #eeeeee !important;
+  }
+  .social-top a.fa-youtube:hover {
+    background-color: #c4302b;
+    color: #eeeeee !important;
+  }
+  .social-top a:before {
+    width: inherit;
+    height: inherit;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  footer a:hover, a:focus {
+    color: #feb501;
+    text-decoration: none;
+  }
+
+  .footer .transparencia {
+    margin: 22px 0 0;
 }
 
 @media (min-width: 1200px){
@@ -65,8 +173,13 @@ font-size: 18px;
         font-size: 20px;
     }
 
+    .presentacion2 p{
+        font-size: 20px;
+    }
+
     .btn-primary{
     width: 40%;
     font-size: 20px;
     }
 }
+
