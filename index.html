@@ -8,13 +8,15 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
     <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     
-    <header class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom">
-        <div class="col-md-3 mb-2 mb-md-0">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom">
+        <div class="col-md-2 mb-2 mb-md-0 text-center">
             <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
                 <img src="/img/CNDH_Slogan_2023.png" alt="logo-Cndh.jpg" width="150">
             </a>
@@ -24,16 +26,16 @@
             <h1>LOGO EDUCA</h1>
         </div>
 
-        <div class="col-md-3 text-end">
+        <div class="col-md-2 text-end">
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
                 <input type="search" class="form-control" placeholder="Buscar..." aria-label="Buscar">
             </form>
         </div>
     </header>
-    <nav class="py-2 bg-body-tertiary border-bottom">
-        <div class="container d-flex flex-wrap">
+    <nav class="py-2 bg-body-tertiary border-bottom border-bottom-colors">
+        <div class="d-flex flex-wrap px-5">
             <ul class="nav me-auto">
-                <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 active" aria-current="page">Educación en línea</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2" aria-current="page">Educación en línea</a></li>
                 <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Educación presencial</a></li>
                 <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Recursos didácticos</a></li>
                 <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Constancias</a></li>
@@ -42,10 +44,41 @@
             </ul>
             <ul class="nav">
                 <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Mis cursos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Sign up</a></li>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square me-1" href="https://www.facebook.com/CNDHmx" aria-label="Facebook de la CNDH"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square me-1" href="http://www.twitter.com/CNDH" aria-label="Twitter de la CNDH"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square me-1" href="https://www.youtube.com/channel/UCSywplGNiEaEyaLTh_pFL1Q" aria-label="YouTube de la CNDH"><i class="fab fa-youtube"></i></a>
+                </div>
             </ul>
         </div>
     </nav>
+
+    <main class="py-5">
+        <div class="row">
+            <div class="col-md-8 presentacion">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <svg class="bd-placeholder-img rounded-circle" width="250" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                    </div>
+                    <div class="col-md-8">
+                        <h1 class="fw-normal mb-4">Conoce la oferta educativa de la CNDH</h1>
+                        <p>
+                            Contamos con 25 cursos y 16 Diplomados, sobre derechos humanos, todos en modalidad en línea.
+                        </p>
+
+                        <div class="text-end mt-4">
+                            <button type="button" class="btn btn-primary">Ingresa</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-md-4">
+                
+            </div>
+        </div>
+    </mai>
   
 </body>
 </html>

@@ -1,0 +1,49 @@
+:root {
+    --red: #96262C;
+    --light: #F3F4F5;
+    --dark: #101820;
+    --green: #3DAE2B;
+    --blue: #215AA8;
+    --yellow: #FFCD00;
+}
+body{
+    font-family: "Montserrat", sans-serif !important;
+    line-height: normal;
+    font-size: 18px;
+}
+
+.border-bottom-colors {
+    position: relative; /* Asegurar que el seudoelemento esté posicionado correctamente */
+    padding-bottom: 4px; /* Espacio adicional para el borde inferior */
+  }
+  
+/* Crear el seudoelemento que contendrá el borde inferior en 4 colores */
+.border-bottom-colors::before {
+content: ""; /* Necesario para que el seudoelemento aparezca */
+position: absolute; /* Posicionar el seudoelemento sobre el borde inferior */
+bottom: 0;
+left: 0;
+right: 0;
+height: 4px; /* Altura del borde inferior */
+background-image: linear-gradient(to right, var(--red), var(--green), var(--yellow), var(--blue)); /* Gradiente con cuatro colores */
+}
+
+.btn-primary{
+width: 40%;
+font-size: 18px;
+}
+
+@media (min-width: 1200px){
+    h1, h1 {
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+    .presentacion p{
+        font-size: 20px;
+    }
+
+    .btn-primary{
+    width: 40%;
+    font-size: 20px;
+    }
+}
