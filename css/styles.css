@@ -12,6 +12,19 @@ body{
     font-size: 18px;
 }
 a{text-decoration: none;}
+ul{list-style-type: none;}
+
+.nav-item .active{
+  border-bottom: 3px solid var(--red);
+  color: var(--red)!important;
+  font-weight: 600;
+}
+
+.btn-link{
+  background-color: rgb(220, 220, 220);
+  border-radius: 50px;
+  color: #fff;
+}
 
 .border-bottom-colors {
     position: relative; /* Asegurar que el seudoelemento esté posicionado correctamente */
