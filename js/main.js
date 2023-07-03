@@ -30,7 +30,7 @@ document.getElementById('listCursos').addEventListener('click', (e) => {
                         </h2>
                         <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
                             <div class="accordion-body text-start">
-                                <strong>Curso compuesto de 4 módulos:.</strong> 
+                                <strong>Curso compuesto de 4 módulos:</strong> 
                                 <ul style='margin-left:15px;'>
                                     <li>M1. Aclarando Conceptos en Diversidad Sexual</li>
                                     <li>M2. Entendiendo la Diversidad Sexual</li>
@@ -39,7 +39,7 @@ document.getElementById('listCursos').addEventListener('click', (e) => {
                                 </ul>
                                 <p>Equivalente a 30 horas de estudios.</p>
                                 <div class="text-end">
-                                    <button type="button" class="btn btn-info">Inscribirse al curso</button>
+                                    <button type="button" class="btn btn-info">Inscribirse en curso</button>
                                 </div>
                             </div>
                         </div>
@@ -274,6 +274,159 @@ document.getElementById('listCursos').addEventListener('click', (e) => {
                     </div>
 
 
+                </div>`,
+        width: 900,
+        showConfirmButton: false
+      });
+})
+
+document.getElementById('listDiplomados').addEventListener('click', (e) => {
+    Swal.fire({
+        title: '<strong>Listado de Diplomados</strong>',
+        html: `<div class="accordion accordion-flush" id="accordionCursos">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                Participación Activa de las y los Adolescentes en la Defensa de los DDHH
+                            </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Detalles.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                Educación para la Paz y Derechos Humanos
+                            </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Diplomado compuesto por los cursos:</strong> 
+                                <ul style='margin-left:15px;'>
+                                    <li>Curso 1. Aclarando Conceptos en Diversidad Sexual</li>
+                                    <li>Curso 2. Entendiendo la Diversidad Sexual</li>
+                                    <li>Curso 3. Diversidad Sexual y Masculinidad</li>
+                                    <li>Curso 4. Diversidad Sexual y Marco Jurídico</li>
+                                </ul>
+                                <p>Equivalente a 120 horas de estudios.</p>
+                                <div class="text-end">
+                                    <button type="button" class="btn btn-info">Inscribirse en Diplomado</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            Seguridad Ciudadana y Derechos Humanos
+                            </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Detalles.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            Uso de la fuerza desde la Perspectiva de los Derechos Humanos
+                            </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Detalles.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            Derechos Humanos desde la Perspectivo de Género
+                            </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Detalles.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                            Derechos Humanos de los Grupos en Situación de Vulnerabilidad
+                            </button>
+                        </h2>
+                        <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Detalles.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                            Educación para los Derechos Humanos
+                            </button>
+                        </h2>
+                        <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Detalles.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                            Cultura de Derechos Humanos y Protección de la Salud
+                            </button>
+                        </h2>
+                        <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Detalles.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                            Transversalización del Enfoque de Derechos Humanos en las Empresas
+                            </button>
+                        </h2>
+                        <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Detalles.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                            Enfoque de Derechos Humanos en la Procuración de la Justicia
+                            </button>
+                        </h2>
+                        <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Detalles.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                            Igualdad y no discriminación en la convivencia escolar
+                            </button>
+                        </h2>
+                        <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionCursos">
+                            <div class="accordion-body text-start">
+                                <strong>Detalles.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>`,
         width: 900,
         showConfirmButton: false
