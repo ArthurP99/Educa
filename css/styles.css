@@ -178,8 +178,8 @@ footer {
 }
 
 .swal2-title{
-  font-weight: normal;
-  color: var(--green);
+  font-weight: normal!important;
+  color: var(--green)!important;
 }
 
 @media (min-width: 1200px){
